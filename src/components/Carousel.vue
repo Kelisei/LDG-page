@@ -1,6 +1,6 @@
 <template>
     <div class="relative w-full overflow-hidden">
-        <img v-for="image in slides" :key="image.id" :src="image.src"
+        <img v-for="image in slides" :key="image.id" :src="image.src" :alt="'slide ' + slide.id"
             :class="{ 'opacity-100': image.id === currentSlide, 'opacity-0': image.id !== currentSlide }"
             class="absolute w-full transition-opacity ease-in-out duration-500 delay-250">
         <img id="current-image" :src="whiteCollider" alt="white-bg">
