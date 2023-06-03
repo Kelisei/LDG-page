@@ -14,22 +14,22 @@
                 class="object-scale-down border-gray-800 rounded-lg bg-gray-200 hover:bg-slate-300 active:bg-slate-500"
                 @click="closeMenu()">
         </nav>
-        <Menu :ref="sideMenu" :menuVisible="menuVisible" @closeMenu="closeMenu" />
+        <sideMenu :ref="sideMenu" :menuVisible="menuVisible" @closeMenu="closeMenu" />
     </div>
     <div class="h-20">
     </div>
 </template>
 <script>
-import Menu from './Menu.vue';
+import sideMenu from './Menu.vue';
 export default {
     components: {
-        Menu
+        sideMenu
     },
     data() {
         return {
-            logoUrl: require('@/assets/Logo-LD-transparente.png'),
-            hamburguerUrl: require('@/assets/menu_black_48dp.svg'),
-            logoTextUrl: require('@/assets/Logo-Ex-LD-transparente.png'),
+            logoUrl: new URL('@/assets/Logo-LD-transparente.webp', import.meta.url),
+            hamburguerUrl: new URL('@/assets/menu_black_48dp.svg', import.meta.url),
+            logoTextUrl: new URL('@/assets/Logo-Ex-LD-transparente.webp', import.meta.url),
             menuVisible: false
         }
     },

@@ -9,7 +9,7 @@
 export default {
     data() {
         return {
-            logo: require('@/assets/Logo-LD-transparente.png'),
+            logo: new URL('@/assets/Logo-LD-transparente.png', import.meta.url),
         }
     },
 }
