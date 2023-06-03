@@ -34,7 +34,7 @@ export default {
     <ul class="px-6">
       <li v-for="item in items" :key="item.id" class="py-4">
         <RouterLink :to="item.link" class="text-xl flex items-center hover:text-slate-400">
-          <img :src="item.imgUrl" class="h-8"> {{ item.text }}
+          <img :src="item.imgUrl" class="h-8" alt="icon"> {{ item.text }}
         </RouterLink>
       </li>
     </ul>
