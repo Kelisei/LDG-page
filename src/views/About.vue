@@ -26,7 +26,7 @@
 export default {
     data() {
         return {
-            stockImage: new URL('@/assets/pexels-mike-1171084.jpg', import.meta.url)
+            stockImage: new URL('@/assets/pexels-mike-1171084.webp', import.meta.url)
         }
     }
 }
