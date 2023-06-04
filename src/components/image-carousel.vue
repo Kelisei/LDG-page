@@ -19,6 +19,7 @@
 
 <script>
 export default {
+    name: 'image-carousel',
     data() {
         return {
             slides: [

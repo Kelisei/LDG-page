@@ -7,6 +7,7 @@
 </template>
 <script>
 export default {
+    name:'hero-section',
     data() {
         return {
             logo: new URL('@/assets/Logo-LD-transparente.webp', import.meta.url),

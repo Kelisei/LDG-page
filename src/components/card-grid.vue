@@ -5,9 +5,10 @@
     </div>
 </template>
 <script>
-import Card from './Card.vue';
+import Card from './single-card.vue';
 
 export default {
+    name:'card-grid',
     components: {
         Card,
     },

@@ -1,6 +1,6 @@
 <script>
-import { RouterLink } from 'vue-router';
 export default {
+  name: 'side-menu',
   data() {
     return {
       xButtonUrl:  new URL( '@/assets/xmark-solid.svg', import.meta.url),

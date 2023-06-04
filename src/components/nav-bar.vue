@@ -20,8 +20,9 @@
     </div>
 </template>
 <script>
-import sideMenu from './Menu.vue';
+import sideMenu from './side-menu.vue';
 export default {
+    name:'nav-bar',
     components: {
         sideMenu
     },
