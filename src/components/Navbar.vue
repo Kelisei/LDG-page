@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed w-full z-10 bg-white overflow-hidden shadow-lg">
+    <div class="fixed w-full z-10 bg-white overflow-hidden shadow-lg ">
         <div class="fixed w-full h-full backdrop-blur-sm backdrop-brightness-50 z-10 " v-if="menuVisible"
             @click="closeMenu()">
         </div>

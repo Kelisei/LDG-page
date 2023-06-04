@@ -9,7 +9,7 @@
 export default {
     data() {
         return {
-            logo: new URL('@/assets/Logo-LD-transparente.png', import.meta.url),
+            logo: new URL('@/assets/Logo-LD-transparente.webp', import.meta.url),
         }
     },
 }
