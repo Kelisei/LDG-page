@@ -11,7 +11,7 @@
                 <img :src="logoTextUrl" alt="logo with text" class="px-2 object-scale-down hidden md:block">
             </router-link>
             <img :src="hamburguerUrl" alt="menu button"
-                class="object-scale-down border-gray-800 rounded-lg bg-gray-200 hover:bg-slate-300 active:bg-slate-500"
+                class="h-14 p-2 border-gray-800 rounded-lg bg-gray-200 hover:bg-slate-300 active:bg-slate-500"
                 @click="closeMenu()">
         </nav>
         <sideMenu :ref="sideMenu" :menuVisible="menuVisible" @closeMenu="closeMenu" />
@@ -28,7 +28,7 @@ export default {
     data() {
         return {
             logoUrl: new URL('@/assets/Logo-LD-transparente.webp', import.meta.url),
-            hamburguerUrl: new URL('@/assets/menu_black_48dp.svg', import.meta.url),
+            hamburguerUrl: new URL('@/assets/bars-solid.svg', import.meta.url),
             logoTextUrl: new URL('@/assets/Logo-Ex-LD-transparente.webp', import.meta.url),
             menuVisible: false
         }
