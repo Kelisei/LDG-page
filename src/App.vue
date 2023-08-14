@@ -1,28 +1,13 @@
-<<<<<<< HEAD
-=======
 <script setup>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
+import Navbar from './components/nav-bar.vue';
+import Footer from './components/footer-section.vue';
 import { RouterView } from 'vue-router';
 </script>
 
->>>>>>> parent of abad215 (Styling fixed)
 <template>
-  <div class="font-serif">
+  <div class="font-serif antialiased tracking-tight">
     <Navbar/>
-    <router-view class=" min-h-screen"></router-view>
+    <RouterView/>
     <Footer/>
   </div>
 </template>
-
-<script>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
-export default {
-  name: 'App',
-  components: {
-    Navbar,
-    Footer
-  }
-}
-</script>
