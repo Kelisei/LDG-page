@@ -24,6 +24,9 @@ const routes = [
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
+<<<<<<< HEAD
+>>>>>>> parent of abad215 (Styling fixed)
+=======
 >>>>>>> parent of abad215 (Styling fixed)
 
 const router = createRouter({

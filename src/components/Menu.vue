@@ -14,7 +14,9 @@
   </div>
 </template>
 <script>
+import { RouterLink } from 'vue-router';
 export default {
+<<<<<<< HEAD
   data() {
     return {
       xButtonUrl: require('@/assets/close_black_48dp.svg'),
@@ -28,6 +30,8 @@ export default {
 <script>
 import { RouterLink } from 'vue-router';
 export default {
+=======
+>>>>>>> parent of abad215 (Styling fixed)
   data() {
     return {
       xButtonUrl:  new URL( '@/assets/xmark-solid.svg', import.meta.url),

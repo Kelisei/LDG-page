@@ -21,7 +21,11 @@
 </template>
 <script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Menu from './Menu.vue';
+=======
+import sideMenu from './Menu.vue';
+>>>>>>> parent of abad215 (Styling fixed)
 =======
 import sideMenu from './Menu.vue';
 >>>>>>> parent of abad215 (Styling fixed)
