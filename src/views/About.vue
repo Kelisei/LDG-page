@@ -24,10 +24,9 @@
 
 <script>
 export default {
-    name:'about-view',
     data() {
         return {
-            stockImage: new URL('@/assets/pexels-mike-1171084.webp', import.meta.url)
+            stockImage: require('@/assets/pexels-mike-1171084.jpg')
         }
     }
 }

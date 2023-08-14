@@ -8,12 +8,12 @@
 
 <script>
 // @ is an alias to /src
-import Carousel from '../components/image-carousel.vue';
-import Hero from '../components/hero-section.vue';
-import CardGrid from '../components/card-grid.vue';
+import Carousel from '../components/Carousel.vue';
+import Hero from '../components/Hero.vue';
+import CardGrid from '../components/CardGrid.vue';
 
 export default {
-  name: 'home-view',
+  name: 'HomeView',
   components : {
     Carousel,
     Hero, 
