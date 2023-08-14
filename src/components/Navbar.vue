@@ -20,7 +20,11 @@
     </div>
 </template>
 <script>
+<<<<<<< HEAD
 import Menu from './Menu.vue';
+=======
+import sideMenu from './Menu.vue';
+>>>>>>> parent of abad215 (Styling fixed)
 export default {
     components: {
         Menu

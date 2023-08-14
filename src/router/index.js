@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createRouter, createWebHashHistory } from 'vue-router'
 import About from '@/views/About.vue'
 import Home from '@/views/Home.vue'
@@ -19,6 +20,11 @@ const routes = [
     component: Home
   }
 ]
+=======
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '../views/Home.vue';
+import About from '../views/About.vue';
+>>>>>>> parent of abad215 (Styling fixed)
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
